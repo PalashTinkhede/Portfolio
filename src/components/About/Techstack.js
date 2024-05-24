@@ -22,40 +22,40 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <CgCPlusPlus className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiJavascript1 className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiNodejs className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <DiReact className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiMongodb className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiNextdotjs className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
     </Row>
   );
