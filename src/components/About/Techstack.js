@@ -22,8 +22,8 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+      <Col xs={4} md={2} className="tech-icons filter grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+        <CgCPlusPlus  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
